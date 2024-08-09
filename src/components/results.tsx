@@ -29,15 +29,21 @@ const data = [
 
 export default function Results() {
   return (
-    <section>
-      <h2>Resultados que falam por nós</h2>
-      <div>
+    <section className="bg-[#05172D] py-14 text-center">
+      <h2 className="text-lg font-bold leading-5 text-yellow mb-8">
+        Resultados que falam por nós
+      </h2>
+      <div className="grid grid-cols-2 justify-center items-center px-6 gap-8">
         {data.map((item) => {
           return (
-            <div>
+            <div className="flex flex-col items-center gap-4">
               <img src={item.img} alt={item.alt} />
-              <h3>{item.number}</h3>
-              <h4>{item.title}</h4>
+              <div className="flex flex-col items-center text-white text-center">
+                <h3 className="text-xl font-bold leading-normal">
+                  {item.number}
+                </h3>
+                <h4 className="leading-6">{item.title}</h4>
+              </div>
             </div>
           );
         })}

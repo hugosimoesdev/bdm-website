@@ -4,15 +4,15 @@ import Link from "next/link";
 
 export default function HeroBanner() {
   return (
-    <div>
+    <section>
       <div className="text-center flex flex-col items-center gap-6 mt-8 px-7">
-        <h1 className="text-2xl font-bold text-dark-gray">
+        <h1 className="text-2xl leading-7 font-bold text-dark-gray">
           Soluções de{" "}
           <span className="text-yellow">
             Engenharia e Segurança do Trabalho
           </span>
         </h1>
-        <p className="text-sm text-dark-gray ">
+        <p className="text-sm text-dark-gray">
           Somos uma empresa com mais de 35 anos de experiência em engenharia,
           automação e segurança do trabalho, oferecendo soluções personalizadas
           e eficientes para diversas indústrias, sempre focados na otimização de
@@ -20,7 +20,7 @@ export default function HeroBanner() {
         </p>
         <Link
           href=""
-          className="bg-yellow p-4 flex w-fit rounded-lg text-white gap-4 font-bold"
+          className="leading-5 bg-yellow p-4 flex w-fit rounded-lg text-white gap-4 font-bold"
         >
           Fale conosco
           <img
@@ -30,6 +30,6 @@ export default function HeroBanner() {
         </Link>
       </div>
       <img src="/assets/banner.png" alt="Banner BDM" />
-    </div>
+    </section>
   );
 }
