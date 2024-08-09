@@ -15,6 +15,10 @@ module.exports = {
       fontFamily: {
         sans: ["var(--font-sans)", ...fontFamily.sans],
       },
+      colors: {
+        "dark-gray": "#333",
+        yellow: "#E9A422",
+      },
     },
   },
   plugins: [],
