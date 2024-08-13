@@ -41,22 +41,31 @@ const data = [
 
 export default function Services() {
   return (
-    <section>
-      <h2>Nossos serviços</h2>
-      <h4>
-        Com nossa vasta experiência e dedicação, oferecemos uma ampla gama de
-        serviços especializados para atender às necessidades especificas de cada
-        cliente. Conheça nossos principais serviços:
-      </h4>
-      {data.map((item) => {
-        return (
-          <div>
-            <img src={item.img} alt={item.title} />
-            <h2>{item.title}</h2>
-            <p>{item.description}</p>
-          </div>
-        );
-      })}
+    <section className="text-center mt-14">
+      <div className="flex flex-col gap-6 px-4">
+        <h2 className="font-bold text-lg leading-5 text-yellow">
+          Nossos serviços
+        </h2>
+        <h4 className="font-bold leading-5">
+          Com nossa vasta experiência e dedicação, oferecemos uma ampla gama de
+          serviços especializados para atender às necessidades especificas de
+          cada cliente. Conheça nossos principais serviços:
+        </h4>
+      </div>
+      <div className="grid grid-cols-6 gap-8 mt-20 px-6">
+        {data.map((item) => {
+          return (
+            <div
+              className="col-span-6 py-12 flex flex-col gap-4 text-center items-center bg-white px-6 shadow-md rounded-lg"
+              key={item.img}
+            >
+              <img src={item.img} alt={item.title} />
+              <h2 className="font-bold leading-5 text-lg">{item.title}</h2>
+              <p className="text-sm">{item.description}</p>
+            </div>
+          );
+        })}
+      </div>
     </section>
   );
 }

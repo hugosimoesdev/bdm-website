@@ -1,5 +1,6 @@
 import React from "react";
 import { Button } from "./ui/button";
+import Link from "next/link";
 
 const data = [
   {
@@ -18,23 +19,37 @@ const data = [
 
 export default function Partners() {
   return (
-    <div>
-      <h2>Parceiros que confiam no nosso trabalho</h2>
-      <div>
+    <div className="shadow-md mt-14 text-center flex flex-col gap-14">
+      <h2 className="font-bold text-lg leading-5 text-yellow">
+        Parceiros que confiam <br />
+        no nosso trabalho
+      </h2>
+      <div className="grid grid-cols-3 items-center px-5 gap-3">
         {data.map((item) => {
-          return <img src={item.src} alt={item.alt} />;
+          return <img src={item.src} alt={item.alt} key={item.alt} />;
         })}
       </div>
-      <div>
-        <img src="/assets/rectangle" alt="Banner engenharia" />
-        <h4>Procurando as melhores soluções de engenharia e segurança?</h4>
-        <Button>
-          Fale conosco
-          <img
-            src="/assets/icons/right-arrow.svg"
-            alt="Icone: Flecha para direita"
-          />
-        </Button>
+      <div className="relative px-4 inline-block mb-14">
+        <img
+          src="/assets/rectangle.png"
+          alt="Banner engenharia"
+          className="w-full h-auto"
+        />
+        <div className="flex flex-col items-center gap-4 absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-center w-full">
+          <h4 className="font-bold text-white leading-5 w-full">
+            Procurando as melhores soluções de engenharia e segurança?
+          </h4>
+          <Link
+            href=""
+            className="leading-5 bg-yellow p-4 flex w-fit rounded-lg text-white gap-4 font-bold"
+          >
+            Fale conosco
+            <img
+              src="/assets/icons/right-arrow.svg"
+              alt="Icone: Flecha para direita"
+            />
+          </Link>
+        </div>
       </div>
     </div>
   );

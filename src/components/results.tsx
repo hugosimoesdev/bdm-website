@@ -36,7 +36,7 @@ export default function Results() {
       <div className="grid grid-cols-2 justify-center items-center px-6 gap-8">
         {data.map((item) => {
           return (
-            <div className="flex flex-col items-center gap-4">
+            <div className="flex flex-col items-center gap-4" key={item.title}>
               <img src={item.img} alt={item.alt} />
               <div className="flex flex-col items-center text-white text-center">
                 <h3 className="text-xl font-bold leading-normal">

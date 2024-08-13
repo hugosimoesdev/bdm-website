@@ -1,6 +1,7 @@
 import Footer from "@/components/footer";
 import Header from "@/components/header";
 import HeroBanner from "@/components/hero-banner";
+import Partners from "@/components/partners";
 import Results from "@/components/results";
 import Services from "@/components/services";
 
@@ -11,6 +12,7 @@ export default function Home() {
       <HeroBanner />
       <Results />
       <Services />
+      <Partners />
       <Footer />
     </main>
   );
