@@ -1,5 +1,5 @@
 import React from "react";
-import Link from "next/link";
+import Navigation from "./navigation";
 
 export default function Header() {
   return (
@@ -14,13 +14,7 @@ export default function Header() {
         alt="Menu Icon"
         className="w-8 h-8 md:hidden"
       />
-      <nav className="flex gap-8 items-center font-bold">
-        <Link href="" className="">
-          Ínicio
-        </Link>
-        <Link href="">Serviço</Link>
-        <Link href="">Parceiros</Link>
-      </nav>
+      <Navigation />
     </header>
   );
 }

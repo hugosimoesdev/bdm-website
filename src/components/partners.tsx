@@ -19,7 +19,10 @@ const data = [
 
 export default function Partners() {
   return (
-    <div className="shadow-md mt-14 text-center flex flex-col gap-14">
+    <section
+      className="shadow-md mt-14 text-center flex flex-col gap-14"
+      id={"parceiros"}
+    >
       <h2 className="font-bold text-lg leading-5 text-yellow">
         Parceiros que confiam <br />
         no nosso trabalho
@@ -51,6 +54,6 @@ export default function Partners() {
           </Link>
         </div>
       </div>
-    </div>
+    </section>
   );
 }

@@ -4,7 +4,7 @@ import Link from "next/link";
 
 export default function HeroBanner() {
   return (
-    <section>
+    <section id="home">
       <div className="text-center flex flex-col items-center gap-6 mt-8 px-7">
         <h1 className="text-2xl leading-7 font-bold text-dark-gray">
           Soluções de{" "}

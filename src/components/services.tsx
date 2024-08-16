@@ -41,7 +41,7 @@ const data = [
 
 export default function Services() {
   return (
-    <section className="text-center mt-14">
+    <section className="text-center mt-14" id={"servicos"}>
       <div className="flex flex-col gap-6 px-4">
         <h2 className="font-bold text-lg leading-5 text-yellow">
           Nossos serviços
