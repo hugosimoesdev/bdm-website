@@ -1,21 +1,6 @@
 import React from "react";
-import { Button } from "./ui/button";
 import Link from "next/link";
-
-const data = [
-  {
-    alt: "Logotipo da Prema",
-    src: "/assets/partners/prema.png",
-  },
-  {
-    alt: "Logotipo do Grupo Paiva",
-    src: "/assets/partners/grupo-paiva.png",
-  },
-  {
-    alt: "Logotipo da CH7 Engenharia",
-    src: "/assets/partners/ch7.png",
-  },
-];
+import { partnersData } from "@/constants/partners-data";
 
 export default function Partners() {
   return (
@@ -28,7 +13,7 @@ export default function Partners() {
         no nosso trabalho
       </h2>
       <div className="grid grid-cols-3 items-center px-5 gap-3">
-        {data.map((item) => {
+        {partnersData.map((item) => {
           return <img src={item.src} alt={item.alt} key={item.alt} />;
         })}
       </div>
