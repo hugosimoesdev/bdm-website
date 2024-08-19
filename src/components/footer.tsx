@@ -6,19 +6,16 @@ export default function Footer() {
   return (
     <footer className="py-14 px-4 bg-[#05172D] flex flex-col gap-8 text-white">
       <div>
-        <img
-          src="/assets/logotipo/bdm-yellow.svg"
-          alt="Logotipo amarelo da BDM"
-        />
+        <img src="/assets/logos/bdm-yellow.svg" alt="Logotipo amarelo da BDM" />
         <div>
           <Link href={""}>
-            <img src="/assets/social-media/whatsapp" alt="" />
+            <img src="/assets/socials/whatsapp.svg" alt="Whatsapp" />
           </Link>
           <Link href={""}>
-            <img src="/assets/social-media/instagram" alt="" />
+            <img src="/assets/socials/instagram.svg" alt="Instagram" />
           </Link>
           <Link href={""}>
-            <img src="/assets/social-media/linkedin" alt="" />
+            <img src="/assets/socials/linkedin.svg" alt="Linkedin" />
           </Link>
         </div>
       </div>

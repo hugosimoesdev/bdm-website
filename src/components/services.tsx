@@ -15,7 +15,7 @@ export default function Services() {
         </h4>
       </div>
       <div className="xl:relative mt-12">
-        <img src="/circle.svg" className="hidden xl:block" />
+        <img src="assets/icons/circle.svg" className="hidden xl:block" />
         <div className="grid grid-cols-6 gap-8 mt-20 px-6 xl:absolute xl:top-[35%] xl:left-1/2 xl:transform xl:-translate-x-1/2 xl:-translate-y-1/2 xl:w-full 2xl:px-32">
           {servicesData.map((item) => {
             return (

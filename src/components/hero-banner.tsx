@@ -5,7 +5,7 @@ export default function HeroBanner() {
   return (
     <section id="home">
       <img
-        src="/caminhao.svg"
+        src="/assets/icons/caminhao.svg"
         alt="Desenho de Trator"
         // TODO: Fazer aparecer para lg também
         className="hidden lg:block lg:w-44 lg:h-44 xl:w-64 xl:h-64"

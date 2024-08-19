@@ -1,14 +1,22 @@
 export const partnersData = [
   {
-    alt: "Logotipo da Prema",
+    alt: "Prema Telhados",
     src: "/assets/partners/prema.png",
   },
   {
-    alt: "Logotipo do Grupo Paiva",
+    alt: "Grupo Paiva",
     src: "/assets/partners/grupo-paiva.png",
   },
   {
-    alt: "Logotipo da CH7 Engenharia",
+    alt: "CH7 Engenharia",
     src: "/assets/partners/ch7.png",
+  },
+  {
+    alt: "Segt Assessoria",
+    src: "/assets/partners/segt.png",
+  },
+  {
+    alt: "Teias Service",
+    src: "/assets/partners/teias.png",
   },
 ];
