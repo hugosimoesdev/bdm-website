@@ -7,7 +7,6 @@ export default function HeroBanner() {
       <img
         src="/assets/icons/caminhao.svg"
         alt="Desenho de Trator"
-        // TODO: Fazer aparecer para lg também
         className="hidden lg:block lg:w-44 lg:h-44 xl:w-64 xl:h-64"
       />
       <div className="lg:flex items-center lg:-mt-44 xl:-mt-56 2xl:-mt-72">
@@ -40,7 +39,7 @@ export default function HeroBanner() {
         <img
           src="/assets/banner.png"
           alt="Banner BDM"
-          className="lg:w-[40%] xl:pr-4"
+          className="lg:w-[40%] xl:pr-4 -mt-14 sm:-mt-24 md:mt-0"
         />
       </div>
     </section>
