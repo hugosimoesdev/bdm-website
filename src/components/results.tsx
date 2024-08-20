@@ -7,7 +7,7 @@ export default function Results() {
       <div className="relative">
         <img
           src="/assets/bg/background.png"
-          className="h-[530px] lg:h-[315px] w-full"
+          className="h-[530px] lg:h-[400px] w-full"
         />
         <div className="absolute top-[50%] left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-full 2xl:px-20">
           <h2 className="text-lg lg:text-xl font-bold leading-5 text-yellow mb-8">
