@@ -8,7 +8,7 @@ export default function Partners() {
       className="mt-6 pt-6 text-center flex flex-col gap-14 px-5 xl:px-10 2xl:px-16"
       id={"parceiros"}
     >
-      <h2 className="font-bold text-lg leading-5 text-yellow md:text-xl md:leading-8 lg:text-2xl lg:leading-normal xl:text-3xl">
+      <h2 className="font-bold text-lg leading-5 text-yellow md:text-xl md:leading-8 lg:leading-normal xl:text-2xl">
         Parceiros que confiam no nosso trabalho
       </h2>
       <div className="w-full inline-flex flex-nowrap overflow-clip gap-3">
@@ -43,7 +43,7 @@ export default function Partners() {
           </h4>
           <Link
             href=""
-            className="leading-5 bg-yellow p-4 flex rounded-lg text-white gap-4 font-bold w-fit md:w-96"
+            className="leading-5 bg-yellow p-4 flex rounded-lg text-white gap-4 font-bold w-fit md:w-96 text-center justify-center"
           >
             Entre em contato conosco
             <img

@@ -9,7 +9,7 @@ export default function HeroBanner() {
         alt="Desenho de Trator"
         className="hidden lg:block lg:w-44 lg:h-44 xl:w-64 xl:h-64"
       />
-      <div className="lg:flex items-center lg:-mt-44 xl:-mt-56 2xl:-mt-72">
+      <div className="lg:flex items-center lg:-mt-44 xl:-mt-56 2xl:-mt-60">
         <div className="text-center lg:text-start flex flex-col items-center lg:items-start gap-6 mt-8 px-7 xl:pl-20 2xl:pl-24">
           <h1 className="text-2xl lg:text-3xl xl:text-5xl 2xl:text-6xl leading-7 font-bold text-dark-gray">
             Soluções de{" "}
@@ -39,7 +39,7 @@ export default function HeroBanner() {
         <img
           src="/assets/banner.png"
           alt="Banner BDM"
-          className="lg:w-[40%] xl:pr-4 -mt-14 sm:-mt-24 md:mt-0"
+          className="lg:w-[48%] xl:pr-4 -mt-14 sm:-mt-24 md:mt-0"
         />
       </div>
     </section>
