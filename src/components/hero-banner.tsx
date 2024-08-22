@@ -24,8 +24,7 @@ export default function HeroBanner() {
             na otimização de processos e na segurança.
           </p>
           <Link
-            // TODO: Colocar o link do whatsapp com mensagem.
-            href=""
+            href="https://w.app/bdmgestao"
             className="leading-5 bg-yellow p-4 flex w-fit lg:w-[50%] justify-center rounded-lg text-white gap-4 font-bold"
           >
             <span className="xl:hidden">Fale conosco</span>

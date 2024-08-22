@@ -8,13 +8,15 @@ export default function Footer() {
       <div className="flex flex-col sm:flex-row sm:justify-between gap-10 items-start sm:items-center">
         <img src="/assets/logos/bdm-yellow.svg" alt="Logotipo amarelo da BDM" />
         <div className="flex gap-4">
-          <Link href={""}>
+          <Link href={"https://w.app/bdmgestao"}>
             <img src="/assets/socials/whatsapp.svg" alt="Whatsapp" />
           </Link>
-          <Link href={""}>
+          <Link href={"https://www.instagram.com/bdm.gestaoenegocios/"}>
             <img src="/assets/socials/instagram.svg" alt="Instagram" />
           </Link>
-          <Link href={""}>
+          <Link
+            href={"https://www.linkedin.com/in/paulo-sim%C3%B5es-9037291a/"}
+          >
             <img src="/assets/socials/linkedin.svg" alt="Linkedin" />
           </Link>
         </div>
@@ -38,9 +40,9 @@ export default function Footer() {
           BDM Gestão & Negócios @ 2024. Todos os direitos reservados.
         </p>
         <nav className="text-xs text-[#C1C7CD] flex gap-8">
-          <Link href={""}>Ínicio</Link>
-          <Link href={""}>Serviços</Link>
-          <Link href={""}>Parceiros</Link>
+          <Link href={"#inicio"}>Ínicio</Link>
+          <Link href={"#servicos"}>Serviços</Link>
+          <Link href={"#parceiros"}>Parceiros</Link>
         </nav>
       </div>
     </footer>
