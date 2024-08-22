@@ -3,13 +3,13 @@ import Link from "next/link";
 
 export default function HeroBanner() {
   return (
-    <section id="home" className="-mb-20">
+    <section id="home" className="-mb-14">
       <img
         src="/assets/icons/caminhao.svg"
         alt="Desenho de Trator"
         className="hidden lg:block lg:w-44 lg:h-44 xl:w-64 xl:h-64 opacity-50"
       />
-      <div className="lg:flex items-center lg:-mt-44 xl:-mt-64 2xl:-mt-80">
+      <div className="lg:flex items-center lg:-mt-44 xl:-mt-64">
         <div className="text-center lg:text-start flex flex-col items-center lg:items-start gap-6 mt-8 px-7 xl:pl-20 2xl:pl-24">
           <h1 className="text-2xl lg:text-3xl xl:text-4xl 2xl:text-5xl leading-7 font-bold text-dark-gray">
             Soluções de{" "}
@@ -38,7 +38,7 @@ export default function HeroBanner() {
         <img
           src="/assets/banner.png"
           alt="Banner BDM"
-          className="lg:w-[50%] xl:w-[45%] 2xl:w-[40%] -mt-28 lg:mt-0 overflow-clip"
+          className="lg:w-[50%] xl:w-[45%] 2xl:w-[40%] md:-mt-28 lg:mt-0 overflow-clip"
         />
       </div>
     </section>
