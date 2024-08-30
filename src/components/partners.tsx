@@ -42,7 +42,7 @@ export default function Partners() {
             Procurando as melhores soluções de engenharia e segurança?
           </h4>
           <Link
-            href="https://w.app/bdmgestao"
+            href="wa.link/8zg5r5"
             className="leading-5 bg-yellow p-4 flex rounded-lg text-white gap-4 font-bold w-fit md:w-96 text-center justify-center"
           >
             Entre em contato conosco
